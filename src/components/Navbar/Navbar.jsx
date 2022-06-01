@@ -103,7 +103,7 @@ function NavbarCrypto({ setAll }) {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Dropdown link
+                Social link
               </a>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -112,7 +112,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://twitter.com/Coin__Stake"
                   target="_blank"
                 >
-                  <i class="fab fa-twitter me-2 "></i>
+                  <i class="fab fa-twitter me-2 "></i><span className="span_text">Twitter</span>
                   
                 </a>
                 <a
@@ -120,7 +120,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://www.instagram.com/coinstake01/"
                   target="_blank"
                 >
-                  <i class="fab fa-instagram me-2 "></i>
+                  <i class="fab fa-instagram me-2 "></i><span className="span_text">Instagram</span>
                   
                 </a>
                 <a
@@ -128,7 +128,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://t.me/coinstake01"
                   target="_blank"
                 >
-                  <i class="fab fa-telegram me-2 "></i>
+                  <i class="fab fa-telegram me-2 "></i><span className="span_text">Telegram</span>
                   
                 </a>
                 <a
@@ -136,7 +136,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://www.facebook.com/Coin-Stake-102162452390259/"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook me-2 "></i>
+                  <i class="fab fa-facebook me-2 "></i><span className="span_text">FaceBook</span>
                   
                 </a>
                 <a
@@ -144,7 +144,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://www.youtube.com/channel/UCuMyPsrFiQwaXrO-nmgGd1w"
                   target="_blank"
                 >
-                  <i class="fab fa-youtube me-2 "></i>
+                  <i class="fab fa-youtube me-2  "></i><span className="span_text">YouTube</span>
                   
                 </a>
               </div>
