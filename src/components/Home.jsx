@@ -60,11 +60,8 @@ const AllComponents=({setAll,setPolicy,setTerms})=>{
             <NFT/>
             <Slides/>
             <Game/>
-            {/* <Tokenomics/> */}
           <Roadmap/>
-            {/* <Team/> */}
             <Faq/>
-            {/* <Partners/> */}
             <Footer setPolicy={setPolicy} setTerms={setTerms}/>
         </>
     )
