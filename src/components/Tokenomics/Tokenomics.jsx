@@ -3,12 +3,17 @@ import './Tokenomics.css'
 function Tokenomics() {
     return (
         <div>
-            <div className="tokenomicsContainer tokenomicsInner  ">
-                <div className="innerdivtextandimg ">
+            <div className="tokenomicsContainer2 tokenomicsInner2  ">
+                <div className="innerdivtextandimg2 ">
 
-                    <p className='tokenHead'> CRYPTO CAR CLUB TOKEN</p>
                     <div className="row container  ">
-                        <div className="col-lg-8">
+                        <div className="token_inner">
+                            <h1>Tokenomics</h1>
+                        </div>
+                        <div className="token_img">
+                            <img src="TOKEN.png" alt="" />
+                        </div>
+                        {/* <div className="col-lg-8">
                             <div className="tokenText">
                                 <p>
                                     Crypto Car Club tokens are used as rewards throughout the platform. All platform users
@@ -18,12 +23,12 @@ function Tokenomics() {
                                 </p>
                             </div>
 
-                        </div>
-                        <div className="col-lg-4 imgend ">
+                        </div> */}
+                        {/* <div className="col-lg-4 imgend ">
                             <div className="tekenIcon ">
                                 <img src="coin.png" alt="" className='imgecoin' />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* <div className="tokenomicsInner">
 

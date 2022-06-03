@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
 
 .overViweContainer{
     width: 100%;
     height: 80vh;
-    background-color: #000;
+    background-color: white;
 }
 .overViewInner{
     display: flex;
@@ -19,8 +19,8 @@
     width: 45%;
 }
 .overviewText p{
-    color: #fff;
-    font-family: 'Aldrich', sans-seri !important;
+    color: black;
+    font-family: quicksand, sans-serif;
     font-size: 26px;
     font-weight: normal;
 }
@@ -55,7 +55,7 @@
     }
     .overviewText p{
         color: #fff;
-        font-family: 'Aldrich', sans-seri !important;
+        font-family: quicksand, sans-serif;
         font-size: 14px;
         font-weight: normal;
     }
@@ -96,7 +96,7 @@
     }
     .overviewText p{
         color: #fff;
-        font-family: 'Aldrich', sans-seri !important;
+        font-family: quicksand, sans-serif;
         font-size: 16px;
         font-weight: normal;
         
@@ -138,7 +138,7 @@
     }
     .overviewText p{
         color: #fff;
-        font-family: 'Aldrich', sans-seri !important;
+        font-family: quicksand, sans-serif;
         font-size: 16px;
         font-weight: normal;
         

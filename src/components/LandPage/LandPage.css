@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
 
 video{
     object-fit: cover;
@@ -8,7 +8,7 @@ video{
     background-size: cover;
 }
 .landPagevideo{
-    background-color: black;
+    background-color: white;
     margin-top: 50px;
 }
 .landPageText{
@@ -16,6 +16,8 @@ video{
     margin-left: 60px;
     width: 550px;
     position: absolute;
+    color: white;
+    font-family: quicksand, sans-serif;
     /* z-index: 100; */
 
 }
@@ -50,7 +52,7 @@ video{
         width: auto;
         margin-left: auto;
         margin-top: -200px;
- 
+        font-family: quicksand, sans-serif !important;
         /* z-index: 100; */
         display: flex;
         flex-direction: row;
@@ -59,7 +61,7 @@ video{
     .landPageText p{
         font-weight: bold;
         font-size: 50px !important;
-   
+        font-family: quicksand, sans-serif;
         text-align: center;
         width: 75%;
         margin-top: -5rem;
@@ -75,5 +77,5 @@ video{
 .landPageText p{
     font-weight: bold;
     font-size: 50px;
-    font-family: 'Aldrich', sans-seri !important;
+    font-family: sans-serif !important;
 }

@@ -59,7 +59,7 @@ export default function CustomizedAccordions() {
     return (
         <div className='Faqmaindiv' id='Faq' >
 
-        <h1 className='mAINHEADING' style={{color:'#000'}} >FAQ</h1>
+        {/* <h1 className='mAINHEADING' style={{color:'#000'}} >FAQ</h1> */}
        
         <h1 className='mAINHEADING' >FAQ</h1>
         <div className="mainheadingtext">Frequently Asked Questions</div>
@@ -68,46 +68,45 @@ export default function CustomizedAccordions() {
 
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                     <AccordionSummary aria-controls="panel1d-content" id="panel1d-header" className="AccodionHeadertext">
-                        <Typography className="AccodionHeadertext">When will Crypto Car Club Game platform be released?</Typography>
+                        <Typography className="AccodionHeadertext">What is Coinstake?</Typography>
                     </AccordionSummary>
                     <AccordionDetails className="Accordiontextbody" >
                         <Typography className="bodytext" >
-                            The game will be released in Q1 2022
+                        Coinstake is the native cryptocurrency for Coinstake Blockchain. Coinstake will not only be a tool to record blockchain transactions, but will act as a decentralized financial medium.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
                 <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                     <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-                        <Typography className="AccodionHeadertext">What is Crypto Car Club Game?</Typography>
+                        <Typography className="AccodionHeadertext">Who is behind Coinstake?</Typography>
                     </AccordionSummary>
                     <AccordionDetails className="Accordiontextbody">
                         <Typography className="bodytext">
-                            Crypto Car Club is the first Web3 based NFT P2E car game. Members can use their cars to race, participate in car shows, and bid on other players.
-                            A weekly announcement for the top 10 fastest and the most winning players.
+                        Coinstake Blockchain and Cryptocurrency have been designed and developed by Innovation Factory, a fintech firm dedicated towards developing innovative decentralized-financial solutions. You can learn more about the firm at: InnovationFactory
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
                 <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                     <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-                        <Typography className="AccodionHeadertext">What rewards Crypto Car Club Game offering?</Typography>
+                        <Typography className="AccodionHeadertext">Is the Whitepaper available for Coinstakes?
+</Typography>
                     </AccordionSummary>
                     <AccordionDetails className="Accordiontextbody">
                         <Typography className="bodytext">
-                            The Club is offering daily competitions and daily rewards for the winners. Competitions can involve single and team player challenges. Club members can choose their teammates for the team challenges. A worldwide race every month for
-                            the top players across the world joining in a race to celebrate the fastest players.
+                        Yes, the whitepaper is available. You can access it through the “Whitepaper” tab in the navigation bar or simply use this link: WhitePaper
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
 
                 <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
                     <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
-                        <Typography className="AccodionHeadertext">What is Crypto Car Club Ecosystem?</Typography>
+                        <Typography className="AccodionHeadertext">Where can I buy Coinstakes?
+</Typography>
                     </AccordionSummary>
                     <AccordionDetails className="Accordiontextbody">
                         <Typography className="bodytext">
 
-                            Crypto Car Club Ecosystem is consistent in trading and auctioning your NFT on
-                            our platform. All members of the Club can bid, buy, sell their NFT inside the platform.
+                        You can buy Coinstake Token with Trust Wallet
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -124,36 +123,16 @@ export default function CustomizedAccordions() {
                 </Accordion>
                 <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
                     <AccordionSummary aria-controls="panel6d-content" id="panel6d-header">
-                        <Typography className="AccodionHeadertext">Can tokens be transferred to different players?</Typography>
+                        <Typography className="AccodionHeadertext">What are possible utilities of Coinstakes?</Typography>
                     </AccordionSummary>
                     <AccordionDetails className="Accordiontextbody">
                         <Typography className="bodytext">
-                            Yes, through Crypto Car Club Marketplace.
+                        
+Coinstake has an ever-growing utility-based ecosystem. They can be traded, invested, staked or use as a digital payment method at supported partner platforms and projects. To learn more about Coinstake’s utility, please refer to the “Ecosystem” tab in the navigation bar or use the link: Ecosystem
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
 
-                <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
-                    <AccordionSummary aria-controls="panel7d-content" id="panel7d-header">
-                        <Typography className="AccodionHeadertext">Which platform will Crypto Car Club Token presale?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails className="Accordiontextbody">
-                        <Typography className="bodytext">
-                            Q4 2021
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
-                <Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
-                    <AccordionSummary aria-controls="panel8d-content" id="panel8d-header">
-                        <Typography className="AccodionHeadertext">What can be done at the Crypto Car Club Marketplace?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails className="Accordiontextbody">
-                        <Typography className="bodytext">
-                            Players can sell, buy, and trade their NFT on our Marketplace.
-                            Players can also buy and sell Crypto Car Club Token.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
             </div>
         </div>
     );

@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
 .navContainer{
     background-color: #000;
+    font-family: quicksand, sans-serif;
 }
 
 .joinBtn{
     background-color: #ffa05f;
-    font-family: 'Aldrich', sans-seri !important;
     width: 10rem !important;
+    font-family: sans-serif !important;
 }
 .joinBtn2{
     background-color: #ffa05f;
-    font-family: 'Aldrich', sans-seri !important;
+    font-family: sans-serif !important;
     width: 8rem !important;
 }
 .fa-twitter{
@@ -45,7 +46,7 @@
 }
 .navText{
     font-size: 14px;
-    font-family: 'Aldrich', sans-seri !important;
+    font-family: quicksand, sans-serif !important;
     text-decoration: none;
     outline: none;
 
@@ -152,13 +153,3 @@
     
       
         }
-
-
-        .span_text{
-            /* margin-top: -2rem !important; */
-        }
-        .dropdown-item{
-            display: flex;
-            align-items: center;
-        }
-  

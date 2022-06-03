@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
 
 .NFTcontainer{
     height: 100vh;
     width: 100%;
-    background-color: #000;
+    background-color: white;
 }
 .NFTinner{
     display: flex;
@@ -18,18 +18,18 @@
 
 }
 .NFTtext span{
-    color: #ffa05f;
+    color: rgb(192,54,113);
     font-weight: bold;
     font-size: 38px;
 
 line-height: 30px;
-    font-family: 'Aldrich', sans-seri !important;
+font-family: sans-serif;
 }
 .NFTtext p{
-    color: #fff;
+    color: black;
     font-size: 23px;
     font-weight: normal;
-    font-family: 'Aldrich', sans-seri !important;
+    font-family: quicksand, sans-serif;
     margin-top: 25px;
 
 }

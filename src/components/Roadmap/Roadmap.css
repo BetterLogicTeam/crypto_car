@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
 
 .roadMapContainer{
-    background-color: #000000;
+    background-color: white;
     height: 300vh;
     padding-top: 100px;
     width: 100%;
 }
 .roadMapHeading{
-    color: #ffa05f;
-    font-family: 'Aldrich', sans-seri !important; 
+    color: rgb(192,54,113);
+    font-family: sans-serif; 
     text-align: center;
     font-size: 50px;
     font-weight: bold;
@@ -43,26 +43,26 @@
     height: 60vh;
     width: 0;
     margin-left: 70px;
-    border: #ffa05f 2px solid;
+    border: rgb(192,54,113) 2px solid;
 }
 .line2{
     height: 60vh;
     width: 0;
     margin-left: 70px;
-    border: #ffa05f 2px solid; 
+    border: rgb(192,54,113) 2px solid; 
 }
 .line3{
     height: 60vh;
     width: 0;
     margin-left: 70px;
-    border: #ffa05f 2px solid;
+    border: rgb(192,54,113) 2px solid;
 
 }
 .line4{
     height: 17vh;
     width: 0;
     margin-left: 70px;
-    border: #ffa05f 2px solid;   
+    border: rgb(192,54,113) 2px solid;   
 }
 .roadMapImage{
     width: 30%;
@@ -73,15 +73,15 @@
 .roadMapItemText{
 
 width: 50%;
-color: #FFF;
+color: black;
 font-size: 22px;
-font-family: 'Aldrich', sans-seri !important; 
+font-family: quicksand, sans-serif; 
 
 }
 .roadMapItemText h4{
     margin-top: 2rem;
-    color: #ffa05f;
-    font-family: 'Aldrich', sans-seri !important; 
+    color: rgb(192,54,113);
+    font-family: sans-serif; 
     font-weight: bold;
     font-size: 25px;
 }

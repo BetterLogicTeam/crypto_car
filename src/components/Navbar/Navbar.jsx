@@ -5,14 +5,17 @@ import { BsMedium } from "react-icons/bs";
 import { Routes, Route, Link } from "react-router-dom";
 
 function NavbarCrypto({ setAll }) {
+
   return (
+   
     <div>
+      
       <Navbar
         collapseOnSelect
         expand="xl"
         variant="dark"
         className="navContainer"
-        fixed="top"
+        // fixed="top"
       >
         <Navbar.Brand href="#home" className="">
           <img src="logon.png" height="50px" width="180px" />
@@ -103,7 +106,7 @@ function NavbarCrypto({ setAll }) {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Social link
+                Dropdown link
               </a>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -112,7 +115,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://twitter.com/Coin__Stake"
                   target="_blank"
                 >
-                  <i class="fab fa-twitter me-2 "></i><span className="span_text">Twitter</span>
+                  <i class="fab fa-twitter me-2 "></i><span>Twitter</span>
                   
                 </a>
                 <a
@@ -120,7 +123,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://www.instagram.com/coinstake01/"
                   target="_blank"
                 >
-                  <i class="fab fa-instagram me-2 "></i><span className="span_text">Instagram</span>
+                  <i class="fab fa-instagram me-2 "></i><span>Instagram</span>
                   
                 </a>
                 <a
@@ -128,7 +131,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://t.me/coinstake01"
                   target="_blank"
                 >
-                  <i class="fab fa-telegram me-2 "></i><span className="span_text">Telegram</span>
+                  <i class="fab fa-telegram me-2 "></i><span>Telegram</span>
                   
                 </a>
                 <a
@@ -136,7 +139,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://www.facebook.com/Coin-Stake-102162452390259/"
                   target="_blank"
                 >
-                  <i class="fab fa-facebook me-2 "></i><span className="span_text">FaceBook</span>
+                  <i class="fab fa-facebook me-2 "></i><span>Facebook</span>
                   
                 </a>
                 <a
@@ -144,7 +147,7 @@ function NavbarCrypto({ setAll }) {
                   href="https://www.youtube.com/channel/UCuMyPsrFiQwaXrO-nmgGd1w"
                   target="_blank"
                 >
-                  <i class="fab fa-youtube me-2  "></i><span className="span_text">YouTube</span>
+                  <i class="fab fa-youtube me-2 "></i><span>Youtube</span>
                   
                 </a>
               </div>

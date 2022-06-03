@@ -1,106 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Oxanium:wght@500&family=Quicksand&family=Roboto&display=swap');
 
+  .token_img img{
+      margin-left: 9rem;
+  }
 
-.tokenomicsContainer{
-    height: 110vh;
-    width: 100%;
-    background-image: url();
-
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: cover; 
-    /* background-color: #000000 !important; */
-
-}
-.tokenHead{
-    color: #ffa05f;
-    font-family: 'Aldrich', sans-seri !important;  
+  .token_inner h1{
+    color: rgb(192,54,113);
+    font-family: sans-serif; 
+    text-align: center;
     font-size: 50px;
     font-weight: bold;
-    padding: 0 20px 10px 20px;
-}
-.tokenomicsInner{
-
-background-color: #000000;
-
-/* opacity: 0.6; */
-z-index: -1;
-}
-.tokenText{
-
-
-font-size: 23px;
-font-family: 'Aldrich', sans-seri !important;  
-color: #ffffff;
-}
-
-
-.tekenIcon{
-
-    margin-top: 5rem;
-    margin-left: 5rem;
-   
-}
-.tekenIcon img{
-    width: 17rem;
-
-  
-}
-
-.innerdivtextandimg{
-    padding: 0 0px 0 25px;
-}
-
-.imgecoin {
-    animation: rotation 2s infinite linear;
-    width: 95% !important;
-  }
-  
-  @keyframes rotation {
-   0%{
-       transform: rotateY(0deg);
-   }
-  
-   50%{
-    transform: rotateY(180deg);
-       
-   }
-  
-   100%{
-    transform: rotateY(360deg);
-
-   }
-
+    padding-bottom: 30px;
+    padding-left: 11rem;
+    padding-top: 3rem;
   }
 
+ .tokenomicsContainer2{
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+ }
 
-  @media (min-width:300px) and (max-width:480px){
-    .tekenIcon{
-
-        margin-top: 0rem;
+ @media screen and (max-width:320px) {
+     
+    .token_img img{
         margin-left: 0rem;
-       
+        width: 300px;
     }
 
-    .tokenomicsContainer{
-        height: auto;
-        width: 100%;
-        background-image: url();
-    
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-size: cover;
-        /* background-color: #000000 !important; */
-    
-    }
-    .tokenHead{
-   
+    .token_inner h1{
         font-size: 25px;
-        font-weight: bold;
-        padding: 0 20px 10px 20px;
-        /* margin-top: -20rem; */
+        margin-left: -8rem;
+    }
+ }
+
+ @media (min-width:320px)  and (max-width:375px) {
+     
+    .token_img img{
+        margin-left: 0rem;
+        width: 350px;
     }
 
+    .token_inner h1{
+        font-size: 25px;
+        margin-left: -8rem;
+    }
+ }
 
+ @media (min-width:375px)  and (max-width:480px) {
+     
+    .token_img img{
+        margin-left: 0rem;
+        width: 400px;
+    }
 
-  }
+    .token_inner h1{
+        font-size: 25px;
+        margin-left: -8rem;
+        padding-top: 0rem;
+    }
+ }
+
+ @media (min-width:480px)  and (max-width:800px) {
+     
+    .token_img img{
+        margin-left: 1.4rem;
+        width: 700px;
+    }
+
+    .token_inner h1{
+        font-size: 50px;
+        margin-left: -8rem;
+    }
+ }
+
+ @media (min-width:800px)  and (max-width:1024px) {
+     
+    .token_img img{
+        margin-left: 3rem;
+        width: 900px;
+    }
+
+    .token_inner h1{
+        font-size: 50px;
+        margin-left: -6rem;
+    }
+ }
+
+ @media (min-width:1024px)  and (max-width:1440px) {
+     
+    .token_img img{
+        margin-left: 10.5rem;
+        width: 1000px;
+    }
+
+    .token_inner h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        padding-left: 11rem;
+        padding-top: 3rem;
+    }
+ }
